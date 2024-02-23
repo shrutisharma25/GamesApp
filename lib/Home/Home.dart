@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:games_app/Component/HomePageCards.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -22,7 +23,7 @@ class _HomeState extends State<Home> {
             )
         ),
       ),
-      body: Text("hi"),
+      body: HomePageCards(),
     );
   }
 }

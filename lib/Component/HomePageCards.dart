@@ -10,6 +10,16 @@ class HomePageCards extends StatefulWidget {
 class _HomePageCardsState extends State<HomePageCards> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Row(
+            children: [
+              Card(child: Text("Hi"),)
+            ],
+          )
+        ],
+      ),
+    );
   }
 }
